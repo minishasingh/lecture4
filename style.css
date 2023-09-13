@@ -1,0 +1,81 @@
+body {
+    font-family: 'Poppins';
+}
+
+header {
+    height: 75vh;
+    background-image: url(https://media.istockphoto.com/id/1335295926/photo/asian-businesswoman-standing-smiling-at-the-camera.webp?b=1&s=170667a&w=0&k=20&c=LjSOVOus-AeiTWS-sGHn7toeHzYEJLBq6Vf_PtIb_V0=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: rgb(20, 19, 19);
+}
+
+.header-section {
+    height: 145%;
+}
+
+.container {
+    width: 35%;
+    margin: auto;
+    height: 35%;
+}
+
+.cards-section {
+    padding: 5%;
+    border: 1px solid red;
+}
+
+.card {
+    margin: 10%;
+    padding: 10%;
+    border: 1px solid green;
+    background-color: yellow;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.header-quote {
+    color: black;
+    padding: 15px;
+    font-weight: bold;
+    width: fit-content;
+    font-size: 15px;
+}
+
+.header-title {
+    color: black;
+    margin: -35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 20px;
+    font-size: 60px;
+}
+
+.subtitle {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.btn {
+    text-align: center;
+}
+
+.btn {
+    text-align: center;
+}
+
+button {
+    background-color: rgba(49, 204, 231, 0.93);
+    color: hsl(0, 0%, 3%);
+    padding: 10px 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+button:hover {
+    color: hsl(0, 0%, 98%);
+    background-color: rgb(164, 228, 16);
+}
